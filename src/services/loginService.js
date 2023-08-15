@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "https://school-tool.onrender.com/login";
+const baseURL = "localhost: 3001/login";
 
 function login(credentials) {
   return axios.post(baseURL, credentials).then((res) => res.data);

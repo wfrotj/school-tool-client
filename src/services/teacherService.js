@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://school-tool.onrender.com/teacher";
+const baseUrl = "localhost: 3001";
 
 async function register(credentials) {
   const response = await axios.post(baseUrl, credentials);
